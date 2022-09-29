@@ -3,10 +3,19 @@
     padding: 0;
 }
 
+nav{
+    padding: 2em;
+}
+
 nav ul, footer ul{
     list-style-type: none;
 }
 
-nav ul li, footer ul li{
+nav li, footer li{
+    display: inline-block;
+}
+
+nav ul li a, footer ul li a{
     text-decoration: none;
+    color: black;
 }
