@@ -17,9 +17,29 @@ nav li, footer li{
 
 nav ul li a, footer ul li a{
     text-decoration: none;
-    color: black;
+    color: #bec6ce;
 }
 
-h1{
+body{
+    background: #0a0a0a;
+
+}
+
+#banner-img h1{
     font-size: 70px;
+    padding: 10% 10% 0%;
+    margin: 10px;
+    color: #c63104;
+}
+#banner-img p{
+    color: #808a97;
+}
+
+#banner-img h1, #banner-img p{
+    text-align: center;
+}
+
+#banner-img{
+    background: url(./img/raphael-nogueira-unsplash.jpg) right bottom/cover no-repeat; 
+    height: 500px;
 }
