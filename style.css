@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-
+/*
 nav{
     padding: 2em;
 }
@@ -22,25 +22,26 @@ nav ul li a, footer ul li a{
 }
 
 body{
-    /*background: #0a0a0a;*/
+    background: #0a0a0a;
 
-}
+}*/
 
 h1{
     font-size: 70px;
-    padding: 10% 10% 0%;
+    /*padding: 10% 10% 0%;
     margin: 10px;
-    color: var(--clr-accent);
+*/    color: var(--clr-accent);
 }
-#banner-img p{
-    color: #808a97;
+#banner-img {
+    background: url(./img/raphael-nogueira-unsplash.jpg) right bottom/cover no-repeat;
+    height: 400px;
 }
-
+/*
 #banner-img h1, #banner-img p{
     text-align: center;
 }
-
+∫
 #banner-img{
     background: url(./img/raphael-nogueira-unsplash.jpg) right bottom/cover no-repeat; 
     height: 500px;
-}
+}*/
